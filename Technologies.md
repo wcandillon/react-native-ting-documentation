@@ -16,7 +16,7 @@ The library is extremely robust and has a low barrier to entry.
 
 When it comes of making your app development lean and efficient, the most overlooked technology is probably static typing.
 It can be quicker to prototype something without it. However, as soon as you actually start to build something, you absolutely need them: The more pressure you put on the type checker, the better.
-This is why React Native DO is using [Flow](https://github.com/facebook/flow), a static type checker for JavaScript.
+This is why React Native Ting is using [Flow](https://github.com/facebook/flow), a static type checker for JavaScript.
 Flow enables you to safely refactor your code and catch most of the mistakes you might make.
 
 To run flow on this project, you can use the command below.
