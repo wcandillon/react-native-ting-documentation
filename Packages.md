@@ -3,7 +3,7 @@
 ```json
 {
     "name": "react-native-ting",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "private": true,
     "devDependencies": {
         "autobind-decorator": "^1.4.0",
@@ -15,7 +15,7 @@
         "exp": "45.1.0",
         "flow-bin": "0.58.0",
         "flow-result-checker": "^0.3.0",
-        "jest-expo": "^21.0.2",
+        "jest-expo": "23.0.0",
         "react-native-scripts": "1.5.0",
         "react-test-renderer": "16.0.0-alpha.12"
     },
@@ -34,20 +34,20 @@
     "jest": {
         "preset": "jest-expo",
         "transformIgnorePatterns": [
-            "node_modules/(?!react-native|react-navigation|expo|native-base-shoutem-theme|@shoutem|react-clone-referenced-element)"
+            "node_modules/(?!react-native|react-navigation|expo|native-base-shoutem-theme|@shoutem|react-clone-referenced-element|native-base|@expo|mobx-react)"
         ],
         "testResultsProcessor": "./node_modules/jest-junit-reporter"
     },
     "dependencies": {
-        "@expo/vector-icons": "5.2.0",
+        "@expo/vector-icons": "6.2.0",
         "crypto-js": "^3.1.9-1",
-        "expo": "^21.0.2",
+        "expo": "23.0.2",
         "jest-junit-reporter": "^1.1.0",
         "lodash": "^4.17.4",
         "moment": "^2.18.1",
         "native-base": "2.3.1",
-        "react": "16.0.0-alpha.12",
-        "react-native": "^0.48.4",
+        "react": "16.0.0",
+        "react-native": "0.50.0",
         "react-native-datepicker": "^1.6.0",
         "react-native-swiper": "^1.5.13",
         "react-navigation": "^1.0.0-beta.19"
