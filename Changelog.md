@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.2
+* Upgrade to Expo 26
+
 ## 1.0.1
 * Minor improvement in the splash screen
 * Update `React`, `React Native`, and `Expo` packages.

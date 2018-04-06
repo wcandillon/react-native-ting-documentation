@@ -3,20 +3,22 @@
 ```json
 {
     "name": "react-native-ting",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "private": true,
     "devDependencies": {
-        "autobind-decorator": "^1.4.0",
-        "babel-eslint": "^7.2.3",
-        "eslint": "^3.19.0",
-        "eslint-config-google": "^0.7.1",
-        "eslint-plugin-flowtype": "^2.32.1",
-        "eslint-plugin-react": "^6.10.3",
-        "exp": "45.1.0",
-        "flow-bin": "0.58.0",
+        "babel-eslint": "^8.2.1",
+        "eslint": "^4.9.0",
+        "eslint-config-airbnb": "^16.1.0",
+        "eslint-plugin-flowtype": "^2.41.0",
+        "eslint-plugin-import": "^2.7.0",
+        "eslint-plugin-jsx-a11y": "^6.0.2",
+        "eslint-plugin-react": "^7.4.0",
+        "eslint-plugin-react-native": "^3.2.1",
+        "exp": "51.4.0",
+        "flow-bin": "0.63.1",
         "flow-result-checker": "^0.3.0",
-        "jest-expo": "23.0.0",
-        "react-native-scripts": "1.5.0",
+        "jest-expo": "^26.0.0",
+        "react-native-scripts": "1.11.1",
         "react-test-renderer": "16.0.0-alpha.12"
     },
     "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
@@ -39,18 +41,19 @@
         "testResultsProcessor": "./node_modules/jest-junit-reporter"
     },
     "dependencies": {
-        "@expo/vector-icons": "6.2.0",
+        "@expo/vector-icons": "6.3.1",
+        "autobind-decorator": "^1.4.0",
         "crypto-js": "^3.1.9-1",
-        "expo": "23.0.2",
+        "expo": "^26.0.0",
         "jest-junit-reporter": "^1.1.0",
         "lodash": "^4.17.4",
         "moment": "^2.18.1",
         "native-base": "2.3.1",
-        "react": "16.0.0",
-        "react-native": "0.50.0",
+        "react": "16.3.0-alpha.1",
+        "react-native": "https://github.com/expo/react-native/archive/sdk-26.0.0.tar.gz",
         "react-native-datepicker": "^1.6.0",
         "react-native-swiper": "^1.5.13",
-        "react-navigation": "^1.0.0-beta.19"
+        "react-navigation": "1.5.8"
     }
 }
 ```
