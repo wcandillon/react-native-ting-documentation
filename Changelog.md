@@ -1,7 +1,7 @@
 # Changelog
 
 ## 1.2.2
-* Upgrade to Expo 26
+* Upgrade to Expo 26, NativeBase 2.4.1, and React Navigation 1.5.8.
 
 ## 1.0.1
 * Minor improvement in the splash screen

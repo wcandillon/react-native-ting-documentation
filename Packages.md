@@ -3,7 +3,7 @@
 ```json
 {
     "name": "react-native-ting",
-    "version": "1.2.2",
+    "version": "1.0.2",
     "private": true,
     "devDependencies": {
         "babel-eslint": "^8.2.1",
@@ -48,7 +48,7 @@
         "jest-junit-reporter": "^1.1.0",
         "lodash": "^4.17.4",
         "moment": "^2.18.1",
-        "native-base": "2.3.1",
+        "native-base": "2.4.1",
         "react": "16.3.0-alpha.1",
         "react-native": "https://github.com/expo/react-native/archive/sdk-26.0.0.tar.gz",
         "react-native-datepicker": "^1.6.0",
