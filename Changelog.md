@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.2
+## 1.2.2
 * Upgrade to Expo 26
 
 ## 1.0.1
