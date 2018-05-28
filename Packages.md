@@ -3,7 +3,7 @@
 ```json
 {
     "name": "react-native-ting",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "private": true,
     "devDependencies": {
         "babel-eslint": "^8.2.1",
