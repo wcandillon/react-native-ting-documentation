@@ -3,7 +3,7 @@
 ```json
 {
     "name": "react-native-ting",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "private": true,
     "devDependencies": {
         "babel-eslint": "^8.2.1",
@@ -14,16 +14,17 @@
         "eslint-plugin-jsx-a11y": "^6.0.2",
         "eslint-plugin-react": "^7.4.0",
         "eslint-plugin-react-native": "^3.2.1",
-        "exp": "53.1.0",
+        "exp": "56.0.0",
+        "expo-cli": "^1.1.0-beta.4",
         "flow-bin": "0.63.1",
         "flow-result-checker": "^0.3.0",
-        "jest-expo": "^27.0.0",
+        "jest-expo": "^29.0.0",
         "react-native-scripts": "1.11.1",
         "react-test-renderer": "16.0.0-alpha.12"
     },
     "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
     "scripts": {
-        "start": "react-native-scripts start",
+        "start": "expo-cli start",
         "eject": "react-native-scripts eject",
         "android": "react-native-scripts android",
         "ios": "react-native-scripts ios",
@@ -44,16 +45,16 @@
         "@expo/vector-icons": "6.3.1",
         "autobind-decorator": "^1.4.0",
         "crypto-js": "^3.1.9-1",
-        "expo": "^27.0.0",
+        "expo": "^29.0.0",
         "jest-junit-reporter": "^1.1.0",
         "lodash": "^4.17.4",
         "moment": "^2.18.1",
         "native-base": "2.4.1",
         "react": "16.3.1",
-        "react-native": "https://github.com/expo/react-native/archive/sdk-27.0.0.tar.gz",
+        "react-native": "https://github.com/expo/react-native/archive/sdk-29.0.0.tar.gz",
         "react-native-datepicker": "^1.6.0",
         "react-native-swiper": "^1.5.13",
-        "react-navigation": "1.5.8"
+        "react-navigation": "^2.9.3"
     }
 }
 ```
