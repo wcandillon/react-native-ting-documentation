@@ -3,7 +3,7 @@
 ```json
 {
     "name": "react-native-ting",
-    "version": "1.2.5",
+    "version": "1.2.6",
     "private": true,
     "devDependencies": {
         "babel-eslint": "^8.2.1",
@@ -15,10 +15,10 @@
         "eslint-plugin-react": "^7.4.0",
         "eslint-plugin-react-native": "^3.2.1",
         "exp": "56.0.0",
-        "expo-cli": "^1.1.0-beta.4",
+        "expo-cli": "2.2.0",
         "flow-bin": "0.63.1",
         "flow-result-checker": "^0.3.0",
-        "jest-expo": "^29.0.0",
+        "jest-expo": "^30.0.0",
         "react-native-scripts": "1.11.1",
         "react-test-renderer": "16.0.0-alpha.12"
     },
@@ -45,16 +45,16 @@
         "@expo/vector-icons": "6.3.1",
         "autobind-decorator": "^1.4.0",
         "crypto-js": "^3.1.9-1",
-        "expo": "^29.0.0",
+        "expo": "^30.0.0",
         "jest-junit-reporter": "^1.1.0",
         "lodash": "^4.17.4",
         "moment": "^2.18.1",
         "native-base": "2.4.1",
         "react": "16.3.1",
-        "react-native": "https://github.com/expo/react-native/archive/sdk-29.0.0.tar.gz",
+        "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz",
         "react-native-datepicker": "^1.6.0",
         "react-native-swiper": "^1.5.13",
-        "react-navigation": "^2.9.3"
+        "react-navigation": "^2.13.0"
     }
 }
 ```

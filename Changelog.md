@@ -1,6 +1,10 @@
 # Changelog
 
 ## 1.2.5
+* Upgrade to Expo 30
+* Fix warnings in React Navigation
+
+## 1.2.5
 * Upgrade to Expo 29
 
 ## 1.2.4
