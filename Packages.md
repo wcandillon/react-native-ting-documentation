@@ -8,6 +8,7 @@
     "devDependencies": {
         "@babel/plugin-transform-react-jsx-source": "^7.2.0",
         "babel-eslint": "^8.2.1",
+        "babel-preset-expo": "^5.0.0",
         "eslint": "^4.9.0",
         "eslint-config-airbnb": "^16.1.0",
         "eslint-plugin-flowtype": "^2.41.0",
@@ -20,27 +21,22 @@
         "flow-bin": "0.63.1",
         "flow-result-checker": "^0.3.0",
         "jest-expo": "^32.0.0",
-        "react-native-scripts": "1.11.1",
         "react-test-renderer": "16.0.0-alpha.12"
     },
-    "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+    "main": "node_modules/expo/AppEntry.js",
     "scripts": {
-        "start": "expo-cli start",
-        "eject": "react-native-scripts eject",
-        "android": "react-native-scripts android",
-        "ios": "react-native-scripts ios",
-        "test": "node node_modules/jest/bin/jest.js",
-        "test:watch": "node node_modules/jest/bin/jest.js --watch",
+        "start": "expo start",
+        "android": "expo start --android",
+        "ios": "expo start --ios",
+        "eject": "expo eject",
+        "test": "jest",
+        "test:watch": "jest --watch",
         "flow": "flow check --show-all-errors | flow-result-checker",
         "lint": "eslint App.js App.test.js src/",
         "react-devtools": "react-devtools"
     },
     "jest": {
-        "preset": "jest-expo",
-        "transformIgnorePatterns": [
-            "node_modules/(?!react-native|react-navigation|expo|native-base-shoutem-theme|@shoutem|react-clone-referenced-element|native-base|@expo|mobx-react)"
-        ],
-        "testResultsProcessor": "./node_modules/jest-junit-reporter"
+        "preset": "jest-expo"
     },
     "dependencies": {
         "@expo/vector-icons": "6.3.1",
